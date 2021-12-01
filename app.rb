@@ -29,6 +29,6 @@ class Battle< Sinatra::Base
     @player_2_name = session[:player_2_name]
     erb :play
   end
-
+  
   run! if app_file == $0
 end
